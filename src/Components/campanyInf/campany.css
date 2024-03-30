@@ -1,0 +1,71 @@
+.header-1 {
+  background: url("../../images/partners.jpg") center / cover;
+  height: 600px;
+  color: white;
+  padding-top: 190px;
+}
+
+.title-pr {
+  font-size: 60px;
+}
+
+.partner_text {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.partners {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.pr_bio {
+  border-top: 4px solid #f4f4f5;
+  font-size: 45px;
+  padding-top: 10px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.repo-of-pr {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-partner {
+  width: 380px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.padding-img {
+  padding-left: 10px;
+  height: 250px;
+}
+
+.padding-1 {
+  padding: 20px 10px 10px 10px;
+}
+
+.partner-img {
+  margin-top: 60px;
+  width: 350px;
+  height: 100px;
+}
+
+.partner-img2 {
+  padding-top: 90px;
+  width: 360px;
+}

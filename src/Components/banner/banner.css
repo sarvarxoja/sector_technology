@@ -1,0 +1,51 @@
+.banner-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.grid-photos {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 5fr 0.5fr 0.5fr;
+}
+
+.photo1 {
+  grid-row: 3;
+  grid-column: 1;
+  margin-top: -580px;
+}
+
+.photo4 {
+  grid-column: 2;
+  grid-column: 1;
+  margin-top: -530px;
+}
+
+.photo5 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: -766px;
+  margin-left: -440px;
+}
+
+.photo2 {
+  grid-row: 1;
+  grid-column: 3;
+  margin-left: 10px;
+}
+
+.photo6 {
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: -530px;
+  margin-left: -440px;
+}
+
+.photo-banner {
+  transition: 0.5s;
+}
+
+.photo-banner:hover {
+  border-radius: 50px;
+}

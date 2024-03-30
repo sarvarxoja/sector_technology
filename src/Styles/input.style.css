@@ -1,0 +1,17 @@
+.input-sm {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: 2px #FDB005 solid;
+}
+
+.input-text {
+    height: 300px;
+    padding-top: 10px;
+    resize: none;
+}

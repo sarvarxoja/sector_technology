@@ -1,0 +1,33 @@
+.footer-background {
+  background: #1f2024;
+  padding: 80px 0px 80px 0px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-li {
+  color: white;
+  font-size: 13px;
+}
+
+.kt-44 {
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-link {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.icon-ft {
+  font-size: 20px;
+}

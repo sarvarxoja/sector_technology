@@ -1,0 +1,48 @@
+.repository_product {
+  margin-top: -750px;
+}
+
+.products {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+  user-select: none;
+}
+
+.catalog {
+  padding: 0px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.catalog:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.products::-webkit-scrollbar {
+  background: #333;
+  border-radius: 3px;
+  height: 9px;
+}
+
+.products::-webkit-scrollbar-thumb {
+  background: rgb(144, 142, 142);
+  border-radius: 4px;
+}
+
+.product_name {
+  text-align: center;
+}
+
+.product_bio {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product_img {
+  transition: 0.5s;
+}
+
+.product_img:hover {
+  transform: scale(1.1);
+}
