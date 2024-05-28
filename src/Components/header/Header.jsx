@@ -1,80 +1,126 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/Sector_Logo_FINISH-cdr-removebg-preview.png";
+import { useTranslation } from "react-i18next";
 import "./header.css";
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div className="header">
-        <nav className="header_navbar container">
-          <div>
-            <Link to={"/"}>
-              <img src={Logo} alt="" width={140} height={50} />
+const Header = () => {
+  const [t, i18n] = useTranslation("global");
+  const handleChangeLanguage = (lang) => {
+    console.log("lang");
+    i18n.changeLanguage(lang);
+  };
+  return (
+    <div className="header">
+      <nav className="header_navbar container">
+        <div>
+          <Link to={"/"}>
+            <img src={Logo} alt="" width={140} height={50} />
+          </Link>
+        </div>
+        <ul className="list_control_main">
+          <li>
+            <Link to={"/products"} className="navbar-link">
+              {t("header.products")}
             </Link>
-          </div>
-          <ul>
-            <li>
-              <div className="dropdown">
-                <button className="dropbtn navbar-link">Продукция</button>
-                <div className="dropdown-content">
-                  <Link to={"/products/ip-camera"} className="text-un">
-                    IP Камеры И Домафония
-                  </Link>
-                  <Link to={"/products/equipment"} className="text-un">
-                    Сетевой Оборудование И Серверный Оборудование
-                  </Link>
-                  <Link to={"/products/automatic/gates"} className="text-un">
-                    Автоматы Ворота И Двери
-                  </Link>
-                  <Link to={"/products/terminal"} className="text-un">
-                    Терминалы Контрол Доступа И Турникеты
-                  </Link>
-                  <Link to={"/products/software"} className="text-un">
-                    Програмные Обеспеченные
-                  </Link>
-                  <Link to={"/products/project"} className="text-un">
-                    Проектные Оборудование
-                  </Link>
-                  <Link to={"/products/system"} className="text-un">
-                    Системные Архитектура Проектов
-                  </Link>
-                </div>
-              </div>
-            </li>
-            <li>
-              <Link to={"/programms"} className="navbar-link">
-              Программы
-              </Link>
-            </li>
-            <li>
-              <Link to={"/support"} className="navbar-link">
-                Поддержка
-              </Link>
-            </li>
-            <li>
-              <Link to={"/partner/info"} className="navbar-link">
-                Партнеры
-              </Link>
-            </li>
-            <li>
-              <Link to={"/about/campany"} className="navbar-link">
-                О компании
-              </Link>
-            </li>
-          </ul>
-          <div>
-            <select name="" id="" className="language">
-              <option value="rus" className="navbar-link option">
+          </li>
+          <li>
+            <Link to={"/programms"} className="navbar-link">
+              {t("header.programms")}
+            </Link>
+          </li>
+          <li>
+            <Link to={"/support"} className="navbar-link">
+              {t("header.support")}
+            </Link>
+          </li>
+          <li>
+            <Link to={"/partner/info"} className="navbar-link">
+              {t("header.partner")}
+            </Link>
+          </li>
+          <li>
+            <Link to={"/about/campany"} className="navbar-link">
+              {t("header.about_company")}
+            </Link>
+          </li>
+        </ul>
+        <div className="dropdown show banner_menu">
+          <a
+            className="btn btn-secondary dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i className="fas fa-bars"></i>
+          </a>
+
+          <div
+            className="dropdown-menu menu_media"
+            aria-labelledby="dropdownMenuLink"
+          >
+            <Link to={"/products"} className="navbar-link dropdown-item">
+              {t("header.products")}
+            </Link>
+            <Link to={"/programms"} className="navbar-link dropdown-item">
+              {t("header.programms")}
+            </Link>
+            <Link to={"/support"} className="navbar-link dropdown-item">
+              {t("header.support")}
+            </Link>
+            <Link to={"/partner/info"} className="navbar-link dropdown-item">
+              {t("header.partner")}
+            </Link>
+            <Link to={"/about/campany"} className="navbar-link dropdown-item">
+              {t("header.about_company")}
+            </Link>
+            <div className="language_btn">
+              <button
+                className="navbar-link option media_btn"
+                onClick={() => handleChangeLanguage("ru")}
+              >
                 Rus
-              </option>
-              <option value="uzb" className="navbar-link option">
+              </button>
+              <button
+                className="navbar-link option media_btn"
+                onClick={() => handleChangeLanguage("uz")}
+              >
                 Uzb
-              </option>
-            </select>
+              </button>
+            </div>
           </div>
-        </nav>
-      </div>
-    );
-  }
-}
+        </div>
+        <div className="btn-group dropleft language_main_controller">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            {t("body.select_language")}
+          </button>
+          <div className="dropdown-menu">
+            <button
+              className="navbar-link option dropdown-item"
+              onClick={() => handleChangeLanguage("ru")}
+            >
+              Rus
+            </button>
+            <button
+              className="navbar-link option dropdown-item"
+              onClick={() => handleChangeLanguage("uz")}
+            >
+              Uzb
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default Header;

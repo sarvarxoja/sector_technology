@@ -25,3 +25,7 @@ a {
 .decoration {
   text-decoration: none;
 }
+
+img {
+  user-select: none;
+}

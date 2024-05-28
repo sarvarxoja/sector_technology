@@ -1,0 +1,37 @@
+.product_data_repository {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.product_img_a1 {
+  width: 500px;
+  height: 400px;
+}
+
+.info_data_p02 {
+  margin-left: 30px;
+}
+
+.bio_product {
+  text-align: left;
+  height: 260px;
+}
+
+.buy_product_b1 {
+  display: block;
+  background: #0e5fac;
+  color: white;
+  width: 100%;
+  height: 50px;
+  padding-top: 5px;
+  font-size: 24px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.buy_product_b1:hover {
+  color: white;
+  transform: scale(1.03);
+}

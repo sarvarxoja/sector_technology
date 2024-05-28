@@ -1,6 +1,6 @@
 .footer-background {
   background: #1f2024;
-  padding: 80px 0px 80px 0px;
+  padding: 40px 0px 30px 0px;
 }
 
 .footer-links {
@@ -14,18 +14,33 @@
   font-size: 13px;
 }
 
+.youtube {
+  user-select: none;
+  position: relative;
+  left: 12px;
+}
+
 .kt-44 {
   align-items: center;
   gap: 10px;
 }
 
+.footer-repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .phone-link {
-  font-weight: bold;
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
   font-size: 20px;
+}
+
+.phone-link:hover {
+  color: #c4bdbd;
 }
 
 .icon-ft {

@@ -47,15 +47,6 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.img-service {
-  width: 300px;
-  transition: 0.5s;
-}
-
-.img-service:hover {
-  transform: scale(1.2);
-}
-
 .service-title {
   font-size: 20px;
   text-align: left;
@@ -68,10 +59,16 @@
   margin: auto;
   text-decoration: underline;
   transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background: #0e5fac;
 }
 
 .buy_now:hover {
   color: white;
-  text-decoration: none;
-  background: #0e5fac;
+  transform: scale(1.08);
+}
+
+.bio-service {
+  max-height: 300px;
 }

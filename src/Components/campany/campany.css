@@ -56,7 +56,7 @@
 
 .sl-23:hover {
   color: white;
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .link:hover {
@@ -146,4 +146,12 @@
 
 .mt-45 {
   margin-top: 22px;
+}
+
+.map {
+  width: 100%;
+}
+
+.header_video {
+  height: 100%;
 }

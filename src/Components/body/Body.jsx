@@ -3,7 +3,6 @@ import Banner from "../../images/camera.jpg";
 import Banner2 from "../../images/1920.jpg";
 import Banner3 from "../../images/banner1.jpg";
 import Banner4 from "../../images/banner5.jpg";
-import Banner5 from "../../images/hikvision banner.jpg"
 
 export default class Body extends Component {
   render() {

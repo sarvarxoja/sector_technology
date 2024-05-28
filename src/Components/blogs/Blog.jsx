@@ -12,7 +12,7 @@ export default class Blog extends Component {
           <h1 className="text-center mt-5">Новости и события</h1>
           <div className="blog-grid mt-5 mb-4">
             <div className="repo1">
-              <img src={years} alt="" width={600} height={250} className="banner_img"/>
+              <img src={years} alt="" height={250} className="banner_img year-a2"/>
               <div className="text_1">
               <span className="h2 mt-2 mb-2 d-block">Blog</span>
               <p className="text-blog">
@@ -23,7 +23,7 @@ export default class Blog extends Component {
               </div>
             </div>
             <div className="repo2">
-              <img src={park} alt="" width={480} height={180} className="banner_img"/>
+              <img src={park} alt="" className="banner_img"/>
               <div className="info_news">
                 <span className="h2 d-block pt-2">SUCCESS STORIES</span>
                 <p className="text-inf">
@@ -33,7 +33,7 @@ export default class Blog extends Component {
               </div>
             </div>
             <div className="repo3">
-              <img src={news} alt="" width={480} height={180} className="banner_img"/>
+              <img src={news} alt="" className="banner_img"/>
               <div className="info_news">
                 <span className="h2 text d-block pt-2">News</span>
                 <p className="text-inf">

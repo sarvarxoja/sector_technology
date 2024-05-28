@@ -1,0 +1,58 @@
+{
+  "header": {
+    "products": "Mahsulotlar",
+    "programms": "Dasturlar",
+    "support": "Qo'llab-quvvatlash",
+    "partner": "Hamkorlar",
+    "about_company": "Kompaniya haqida"
+  },
+
+  "body": {
+    "title_product": "Bizning mahsulotlarimiz",
+    "banner": "Yechim",
+    "more": "Koproq...",
+    "shop_btn": "Maslahat olish",
+    "search": "Qidirish",
+    "msg": "Bizga shikoyat yoki taklif yuboring",
+    "send_btn": "Yuborish",
+    "select_language": "Uzb"
+  },
+
+  "footer": {
+    "contact": "Kontaktlar",
+    "address": "Bizning manzil",
+    "social_media": "Bizning ijtimoiy tarmoqlar",
+    "data": "Ma'lumotlarni ko'rish"
+  },
+
+  "partners": {
+    "title": "Texnologiya hamkorlari",
+    "about": "ProSecurity Business Assistant. Barmoqlaringiz uchida"
+  },
+
+  "campany": {
+    "campany_title": "Kampaniyamiz haqida",
+    "campany_bio": "«Xavfsiz jamiyat, yaxshiroq hayot» missiyasiga muvofiq, Sector Technology har doim xavfsiz, aqlli, qulay va samarali jamiyatni yaratish uchun yuqori sifat va xizmat ko'rsatish orqali ularga ko'proq foyda keltirish uchun mijozlarga yo'naltirilganlik tamoyiliga amal qiladi.",
+    "service_title": "Bizning noyob yondashuvimiz bizni ajratib turadi",
+    "communication": "Doimiy aloqa",
+    "quality": "Yuqori sifat",
+    "technology": "Zamonaviy texnologiyalar",
+    "software": "Sifatli dasturiy ta'minot",
+    "watch": "Hozir tomosha qilish"
+  },
+
+  "type": {
+    "lifts": "LKDS",
+    "ip-camera": "IP-kameralar",
+    "damaphon": "Damafoniya",
+    "turniket": "Turniketlar",
+    "face_id": "Face ID",
+    "nvr": "NVR",
+    "servers": "Serverlar",
+    "switches": "Kalitlar",
+    "camutator": "Oʻzgartirish",
+    "controllers": "Kontrollerlar",
+    "accesuares": "Aksessuarlar",
+    "software_program": "Dasturiy ta'minot"
+  }
+}

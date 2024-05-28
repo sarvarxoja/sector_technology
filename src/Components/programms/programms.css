@@ -1,0 +1,43 @@
+.all_programms {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box_programm {
+  text-align: center;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.programms_type {
+  margin-top: 20px;
+}
+
+.type_company {
+  border: none;
+  margin-right: 20px;
+  font-size: 20px;
+  background: #ddd9d9;
+  border-radius: 4px;
+  padding: 0px 24px 1px 20px;
+}
+
+.type_company:focus {
+  font-weight: 700;
+  background: #333;
+  color: white;
+}
+
+.programm_name {
+  font-size: 20px;
+}
+
+.programm_bio {
+  font-size: 12px;
+}
+
+.programm_img  {
+margin-bottom: 20px;
+}

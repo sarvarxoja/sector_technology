@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectEquipment from "../Components/Project Equipment/ProjectEquipment";
+import ProjectEquipment from "../Components/project-equipment/ProjectEquipment";
 import Header from "../Components/header/Header";
 
 export default class ProjectService extends Component {
